@@ -6,9 +6,13 @@ public class Library extends LibraryWorkImplementat {
     public static void main(String[] args) {
         Book book = new Book("the girl in room 105", "chetan bhagat", 1);
         Book book1 = new Book("half-girlfrnd", "chetan bhagat", 2);
+
         Library library = new Library();
+        Library library1 = new Library();
+    
         library.addBook(book);
         library.addBook(book1);
+
         // input of student
         Scanner sc = new Scanner(System.in);
         // System.out.println("enter name");

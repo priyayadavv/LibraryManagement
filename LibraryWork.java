@@ -8,6 +8,7 @@ public interface LibraryWork {
   void addBook(Book book);
   void allBook();
   void issueBook(int id);
+  void payFineAfterLate();
 
 
 }
